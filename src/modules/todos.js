@@ -27,8 +27,8 @@ export const addTodo = text => ({
         done: false,
     }
 });
-export const toggleTodo = id => ({
-    type: TOGGLE_TODO,
+export const toggleTodo = id => ({ 
+    type: TOGGLE_TODO, //액션객체임
     id
 });
 
